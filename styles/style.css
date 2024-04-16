@@ -307,9 +307,7 @@
 }
 
 .step {
-  max-width: 220px;
-  max-height: 220px;
-  flex-basis: auto;
+  flex-basis: 220px;
 
 }
 
