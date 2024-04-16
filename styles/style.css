@@ -309,6 +309,7 @@
 .step {
   max-width: 220px;
   max-height: 220px;
+  flex-basis: auto;
 
 }
 
@@ -347,6 +348,7 @@
 
 .footer__logo {
   width: 58px;
+  height: 80px;
 }
 
 
@@ -359,14 +361,18 @@
 .footer__list-item {
   margin-bottom: 16px;
 }
-
+.footer__column-heading {
+  margin-bottom: 20px;
+}
 .footer__column-link {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
   color: white;
   text-decoration: none;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
   height: 16px;
   width: 16px;
 }
